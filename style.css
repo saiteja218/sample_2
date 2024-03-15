@@ -12,10 +12,16 @@ body{
 }
 div{
     background-color: white;
-    width: 75%;
+    width: 60%;
     margin: auto;
     border-radius: 25px;
     padding: 10px;
-    box-shadow: 0px 10px 13px 0px black;
+    box-shadow: 5px 10px 10px 0px black;
 
+}
+@media (max-width: 800px) {
+    div{
+        width: 95%;
+    }
+    
 }
